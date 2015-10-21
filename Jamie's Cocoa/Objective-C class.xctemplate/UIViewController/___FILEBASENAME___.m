@@ -10,18 +10,16 @@
 
 @interface ___FILEBASENAMEASIDENTIFIER___ ()
 
-@property (nonatomic) <#(UIView Subclass)#> view;
+@property (nonatomic) <#(UIView Subclass)#> *view;
 
 @end
 
 @implementation ___FILEBASENAMEASIDENTIFIER___
 @dynamic view;
 
-- (void)viewDidLoad
+- (void)loadView
 {
-    [super viewDidLoad];
-
-    self.view = [[<#(UIView Subclass)#> alloc] initWithFrame:self.view.frame];
+    self.view = [<#(UIView Subclass)#> new];
 }
 
 @end
