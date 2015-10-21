@@ -8,15 +8,36 @@
 
 #import "___FILEBASENAME___.h"
 
+@interface ___FILEBASENAMEASIDENTIFIER___ ()
+
+@end
+
 @implementation ___FILEBASENAMEASIDENTIFIER___
 
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {
     if(self = [super initWithStyle:style reuseIdentifier:reuseIdentifier])
     {
-        
+        [self buildUI];
+        [self applyConstraints];
     }
     return self;
 }
+
+- (void)buildUI
+{
+
+}
+
+- (void)applyConstraints
+{
+    
+}
+
+#pragma mark - Overrides -
+
+#pragma mark - Views -
+
+#pragma mark - Private -
 
 @end

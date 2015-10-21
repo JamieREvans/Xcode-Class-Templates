@@ -18,7 +18,6 @@
 {
     if(self = [super init])
     {
-        // Custom Methods
         [self buildUI];
         [self applyConstraints];
     }
